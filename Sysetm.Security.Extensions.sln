@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Extensions", "Sysetm.Security.Extensions\System.Security.Extensions.csproj", "{ACA3233F-37CD-44D3-BE4C-35B38D91B28E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Security.ExtensionsTests", "System.Security.ExtensionsTests\System.Security.ExtensionsTests.csproj", "{B22F86E4-B6BE-4EDA-9EAF-1F63C9349B25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACA3233F-37CD-44D3-BE4C-35B38D91B28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA3233F-37CD-44D3-BE4C-35B38D91B28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA3233F-37CD-44D3-BE4C-35B38D91B28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA3233F-37CD-44D3-BE4C-35B38D91B28E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22F86E4-B6BE-4EDA-9EAF-1F63C9349B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22F86E4-B6BE-4EDA-9EAF-1F63C9349B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22F86E4-B6BE-4EDA-9EAF-1F63C9349B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22F86E4-B6BE-4EDA-9EAF-1F63C9349B25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68FE7679-060C-49C8-B268-7F3A68B62723}
+	EndGlobalSection
+EndGlobal
