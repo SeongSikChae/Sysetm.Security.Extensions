@@ -11,6 +11,8 @@
     <Authors>SeongSikChae</Authors>
     <RepositoryUrl>https://github.com/SeongSikChae/System.Security.Extensions.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Description>.NET System.Security namespace Extensions</Description>
+    <PackageProjectUrl>https://github.com/SeongSikChae/System.Security.Extensions.git</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
