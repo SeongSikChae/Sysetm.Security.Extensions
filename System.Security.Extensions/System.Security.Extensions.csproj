@@ -9,7 +9,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Version>1.0.0</Version>
     <Authors>SeongSikChae</Authors>
-    <RepositoryUrl>https://github.com/SeongSikChae/Sysetm.Security.Extensions.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/SeongSikChae/System.Security.Extensions.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
