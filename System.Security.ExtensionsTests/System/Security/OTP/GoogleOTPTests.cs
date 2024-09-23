@@ -8,7 +8,7 @@ namespace System.Security.OTP.Tests
 		[TestMethod]
         public void GoogleOTPTest()
 		{
-			MockOneTimePasswordTimer timer = new MockOneTimePasswordTimer(new DateTime(2024, 07, 12, 14, 05, 00));
+			MockOneTimePasswordTimer timer = new MockOneTimePasswordTimer(new DateTime(2024, 07, 12, 5, 5, 00, DateTimeKind.Utc));
 			using GoogleOTP otp = new GoogleOTP(timer, "AAAAAAAAAAAAAAAA");
 			Assert.AreEqual("095428", otp.GenerateCode());
 			Assert.AreEqual(30, otp.GetRemainingSeconds(timer.GetTime()));
